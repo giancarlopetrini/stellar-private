@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  stellar:
+    image: "stellar/quickstart:latest"
+    command: -v "" --standalone
+    ports:
+      - '8000:8000'
